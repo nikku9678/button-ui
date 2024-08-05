@@ -1,0 +1,36 @@
+{
+  "name": "@nikku9678/button-ui",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikku9678/button-ui.git"
+  },
+  "author": "Nikku Kumar Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikku9678/button-ui/issues"
+  },
+  "homepage": "https://github.com/nikku9678/button-ui#readme",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
